@@ -100,7 +100,6 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        # - --git-url=git@github.com:lotharschulz/flux
         - --git-url=git@github.com:lotharschulz/flux-get-started
         - --git-branch=master
 
