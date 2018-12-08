@@ -96,7 +96,8 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        - --git-url=git@github.com:lotharschulz/flux
+        # - --git-url=git@github.com:lotharschulz/flux
+        - --git-url=git@github.com:lotharschulz/flux-get-started
         - --git-branch=master
 
         # include these next two to connect to an "upstream" service
@@ -107,3 +108,6 @@ spec:
         # serve /metrics endpoint at different port.
         # make sure to set prometheus' annotation to scrape the port value.
         - --listen-metrics=:3031
+
+        # period at which to fetch any new commits from the git repo
+        - --git-poll-interval=10s
