@@ -9,8 +9,6 @@ including a show case video:
 
 original repository [flux](https://github.com/weaveworks/flux) at Dec 7th, 2018:
 
----
-
 ## Flux
 
 We believe in GitOps:
