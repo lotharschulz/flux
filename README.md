@@ -1,4 +1,17 @@
-# Flux
+# _[flux](https://github.com/weaveworks/flux)_ fork
+
+A fork for a [gitops blog post on ls.info](https://www.lotharschulz.info/2018/12/10/gitops/)
+including a show case video:
+
+[![gitops](gitops.png)](https://youtu.be/pSrjBcKr1tA "gitops")
+
+---
+
+original repository [flux](https://github.com/weaveworks/flux) at Dec 7th, 2018:
+
+---
+
+## Flux
 
 We believe in GitOps:
 
